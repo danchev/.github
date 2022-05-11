@@ -38,10 +38,7 @@ body:
 - type: textarea
   attributes:
     label: Environment
-    description:
-    placeholder: |
-        - OS:
-    render: markdown
+    description: Environment details
   validations:
     required: false
 - type: textarea
